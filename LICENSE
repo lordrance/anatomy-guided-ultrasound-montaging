@@ -19,18 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-This licence covers the source code in this repository only.
-
-No dataset is redistributed here. The download scripts fetch data from its
-official source, and each dataset remains under its own licence:
-
-  PTB-XL v1.0.3 (PhysioNet)                        CC BY 4.0
-  Shoulder 3D Ultrasound Mosaicking Dataset        CC BY 4.0
-  (Zenodo 10.5281/zenodo.20283247)
-
-The papers this work is inspired by are cited in the README and are the property
-of their authors and publishers. No text, figure or code from them is reproduced
-here.

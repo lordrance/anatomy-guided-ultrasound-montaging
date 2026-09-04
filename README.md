@@ -350,4 +350,5 @@ cannot hide inside it.
 > doi:10.5281/zenodo.20283247
 
 Code in this repository is original and released under the MIT License
-([`LICENSE`](LICENSE)). No dataset is redistributed.
+([`LICENSE`](LICENSE)). No dataset is redistributed; datasets, papers and
+third-party software are attributed in [`NOTICE.md`](NOTICE.md).
