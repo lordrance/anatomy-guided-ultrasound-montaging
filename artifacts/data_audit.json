@@ -1,0 +1,125 @@
+{
+  "n_trials": 7,
+  "trials": [
+    "PA001_trial_A",
+    "PA001_trial_B",
+    "PA002_trial_A",
+    "PA002_trial_B",
+    "PA003_trial_A",
+    "PA004_trial_A",
+    "PA005_trial_A"
+  ],
+  "n_participants": 5,
+  "n_segmentations": 62,
+  "dim": [
+    512,
+    403,
+    256
+  ],
+  "spacing_from_headers": [
+    0.11037,
+    0.10695,
+    0.23967
+  ],
+  "spacing_in_paper": [
+    0.1229,
+    0.107,
+    0.2405
+  ],
+  "mask_voxels": {
+    "min": 31821,
+    "max": 522185,
+    "median": 150835
+  },
+  "mask_dialects": [
+    "ImFusion",
+    "Slicer"
+  ],
+  "mask_brightness_ratio": {
+    "min": 1.82,
+    "max": 8.53,
+    "median": 3.99
+  },
+  "n_reference_transforms": 321,
+  "robot_pose_rotation_correlation": 0.8229,
+  "checks": [
+    {
+      "check": "7 trials present",
+      "passed": true,
+      "detail": "7: PA001_trial_A, PA001_trial_B, PA002_trial_A, PA002_trial_B, PA003_trial_A, PA004_trial_A, PA005_trial_A",
+      "note": false
+    },
+    {
+      "check": "5 participants",
+      "passed": true,
+      "detail": "",
+      "note": false
+    },
+    {
+      "check": "62 humerus segmentations listed",
+      "passed": true,
+      "detail": "62",
+      "note": false
+    },
+    {
+      "check": "all needed volumes and masks downloaded",
+      "passed": true,
+      "detail": "62 volume/mask pairs",
+      "note": false
+    },
+    {
+      "check": "identical grid for every volume",
+      "passed": true,
+      "detail": "DimSize 512 403 256",
+      "note": false
+    },
+    {
+      "check": "identical spacing for every volume",
+      "passed": true,
+      "detail": "[0.11037 0.10695 0.23967]",
+      "note": false
+    },
+    {
+      "check": "spacing matches config.EXPECTED_SPACING",
+      "passed": true,
+      "detail": "",
+      "note": false
+    },
+    {
+      "check": "spacing agrees with the figure printed in the PLOS ONE paper",
+      "passed": false,
+      "detail": "headers say [0.11037, 0.10695, 0.23967], paper says [0.1229, 0.107, 0.2405]; the headers are what the pixel data sits on, so the headers are used",
+      "note": true
+    },
+    {
+      "check": "voxel type is MET_UCHAR",
+      "passed": true,
+      "detail": "{'MET_UCHAR'}",
+      "note": false
+    },
+    {
+      "check": "two MetaImage dialects are present among the masks",
+      "passed": true,
+      "detail": "['ImFusion', 'Slicer']; the ImFusion ones carry a scene pose in their header, which read_label_map() ignores in favour of index correspondence",
+      "note": true
+    },
+    {
+      "check": "every mask lands on bright (bone-like) voxels of its own volume",
+      "passed": true,
+      "detail": "mean intensity inside the mask is 1.82x to 8.53x the volume mean (median 3.99x)",
+      "note": false
+    },
+    {
+      "check": "reference transforms parse and are rigid",
+      "passed": true,
+      "detail": "321 transforms across 7 trials",
+      "note": false
+    },
+    {
+      "check": "robot poses index-align with the reference transforms",
+      "passed": true,
+      "detail": "relative-rotation correlation r = 0.823 over 314 consecutive pairs",
+      "note": false
+    }
+  ]
+}

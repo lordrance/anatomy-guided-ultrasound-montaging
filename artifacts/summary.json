@@ -1,0 +1,217 @@
+{
+  "n_pairs": 28,
+  "n_registrations": 504,
+  "wall_clock_minutes": 2.56,
+  "platform": "Windows-11-10.0.22000-SP0 python 3.12.4",
+  "success_threshold_mm": 5.0,
+  "table": {
+    "EASY|intensity": {
+      "n": 84,
+      "init_mtre_mm": 0.628,
+      "median_mtre_mm": 7.425,
+      "mean_mtre_mm": 8.3,
+      "delta_mtre_mm": 7.672,
+      "median_delta_mtre_mm": 6.742,
+      "success_rate": 0.25,
+      "improved_rate": 0.0,
+      "seconds": 4.098
+    },
+    "EASY|anatomy": {
+      "n": 84,
+      "init_mtre_mm": 0.628,
+      "median_mtre_mm": 6.949,
+      "mean_mtre_mm": 8.991,
+      "delta_mtre_mm": 8.363,
+      "median_delta_mtre_mm": 6.314,
+      "success_rate": 0.357143,
+      "improved_rate": 0.0,
+      "seconds": 0.269
+    },
+    "MEDIUM|intensity": {
+      "n": 84,
+      "init_mtre_mm": 3.09,
+      "median_mtre_mm": 7.568,
+      "mean_mtre_mm": 8.531,
+      "delta_mtre_mm": 5.44,
+      "median_delta_mtre_mm": 4.435,
+      "success_rate": 0.238095,
+      "improved_rate": 0.095238,
+      "seconds": 3.914
+    },
+    "MEDIUM|anatomy": {
+      "n": 84,
+      "init_mtre_mm": 3.09,
+      "median_mtre_mm": 7.992,
+      "mean_mtre_mm": 10.353,
+      "delta_mtre_mm": 7.263,
+      "median_delta_mtre_mm": 4.703,
+      "success_rate": 0.321429,
+      "improved_rate": 0.083333,
+      "seconds": 0.28
+    },
+    "HARD|intensity": {
+      "n": 84,
+      "init_mtre_mm": 6.667,
+      "median_mtre_mm": 8.584,
+      "mean_mtre_mm": 9.209,
+      "delta_mtre_mm": 2.542,
+      "median_delta_mtre_mm": 2.049,
+      "success_rate": 0.178571,
+      "improved_rate": 0.333333,
+      "seconds": 3.871
+    },
+    "HARD|anatomy": {
+      "n": 84,
+      "init_mtre_mm": 6.667,
+      "median_mtre_mm": 9.383,
+      "mean_mtre_mm": 12.434,
+      "delta_mtre_mm": 5.766,
+      "median_delta_mtre_mm": 3.129,
+      "success_rate": 0.261905,
+      "improved_rate": 0.357143,
+      "seconds": 0.292
+    },
+    "ALL|intensity": {
+      "n": 252,
+      "init_mtre_mm": 3.462,
+      "median_mtre_mm": 8.25,
+      "mean_mtre_mm": 8.68,
+      "delta_mtre_mm": 5.218,
+      "median_delta_mtre_mm": 4.561,
+      "success_rate": 0.222222,
+      "improved_rate": 0.142857,
+      "seconds": 3.961
+    },
+    "ALL|anatomy": {
+      "n": 252,
+      "init_mtre_mm": 3.462,
+      "median_mtre_mm": 8.004,
+      "mean_mtre_mm": 10.593,
+      "delta_mtre_mm": 7.131,
+      "median_delta_mtre_mm": 4.707,
+      "success_rate": 0.313492,
+      "improved_rate": 0.146825,
+      "seconds": 0.28
+    }
+  },
+  "paired": {
+    "EASY|success_rate": {
+      "anatomy_minus_intensity": 0.1071,
+      "ci95": [
+        -0.0899,
+        0.2989
+      ],
+      "excludes_zero": false
+    },
+    "EASY|mtre_mm": {
+      "anatomy_minus_intensity": 0.6904,
+      "ci95": [
+        -1.2493,
+        1.9526
+      ],
+      "excludes_zero": false
+    },
+    "MEDIUM|success_rate": {
+      "anatomy_minus_intensity": 0.0833,
+      "ci95": [
+        -0.092,
+        0.253
+      ],
+      "excludes_zero": false
+    },
+    "MEDIUM|mtre_mm": {
+      "anatomy_minus_intensity": 1.8224,
+      "ci95": [
+        0.4459,
+        3.6942
+      ],
+      "excludes_zero": true
+    },
+    "HARD|success_rate": {
+      "anatomy_minus_intensity": 0.0833,
+      "ci95": [
+        -0.0417,
+        0.25
+      ],
+      "excludes_zero": false
+    },
+    "HARD|mtre_mm": {
+      "anatomy_minus_intensity": 3.2242,
+      "ci95": [
+        0.7259,
+        6.313
+      ],
+      "excludes_zero": true
+    },
+    "ALL|success_rate": {
+      "anatomy_minus_intensity": 0.0913,
+      "ci95": [
+        -0.0617,
+        0.2645
+      ],
+      "excludes_zero": false
+    },
+    "ALL|mtre_mm": {
+      "anatomy_minus_intensity": 1.9123,
+      "ci95": [
+        0.4102,
+        3.6847
+      ],
+      "excludes_zero": true
+    }
+  },
+  "by_bone_overlap": {
+    "0 (no shared bone)": {
+      "n_pairs": 3,
+      "intensity": {
+        "success_rate": 0.0,
+        "median_mtre_mm": 12.221
+      },
+      "anatomy": {
+        "success_rate": 0.0,
+        "median_mtre_mm": 25.311
+      }
+    },
+    "0-0.10": {
+      "n_pairs": 8,
+      "intensity": {
+        "success_rate": 0.1806,
+        "median_mtre_mm": 9.691
+      },
+      "anatomy": {
+        "success_rate": 0.1111,
+        "median_mtre_mm": 8.181
+      }
+    },
+    "0.10-0.30": {
+      "n_pairs": 6,
+      "intensity": {
+        "success_rate": 0.3889,
+        "median_mtre_mm": 6.172
+      },
+      "anatomy": {
+        "success_rate": 0.0926,
+        "median_mtre_mm": 11.378
+      }
+    },
+    ">= 0.30": {
+      "n_pairs": 11,
+      "intensity": {
+        "success_rate": 0.2222,
+        "median_mtre_mm": 6.477
+      },
+      "anatomy": {
+        "success_rate": 0.6667,
+        "median_mtre_mm": 4.42
+      }
+    }
+  },
+  "trials": [
+    "PA001_trial_A",
+    "PA001_trial_B",
+    "PA002_trial_B",
+    "PA003_trial_A",
+    "PA004_trial_A",
+    "PA005_trial_A"
+  ]
+}

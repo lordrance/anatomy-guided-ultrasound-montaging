@@ -1,0 +1,263 @@
+{
+  "n_pairs": 28,
+  "intensity_beats_reference_on_its_own_criterion": 28,
+  "anatomy_beats_reference_on_its_own_criterion": 28,
+  "mean_ncc_at_reference": 0.6404,
+  "mean_ncc_at_solution": 0.7977,
+  "median_surface_rms_at_reference_mm": 0.785,
+  "median_surface_rms_at_solution_mm": 0.3425,
+  "rows": [
+    {
+      "pair_id": "PA001_trial_A_V9-V10",
+      "trial": "PA001_trial_A",
+      "bone_dice_at_reference": 0.017,
+      "ncc_at_reference": 0.8261,
+      "ncc_at_intensity_solution": 0.8591,
+      "surface_rms_at_reference_mm": 2.0207,
+      "surface_rms_at_anatomy_solution_mm": 0.3381
+    },
+    {
+      "pair_id": "PA001_trial_A_V10-V11",
+      "trial": "PA001_trial_A",
+      "bone_dice_at_reference": 0.3409,
+      "ncc_at_reference": 0.8186,
+      "ncc_at_intensity_solution": 0.883,
+      "surface_rms_at_reference_mm": 0.7116,
+      "surface_rms_at_anatomy_solution_mm": 0.3946
+    },
+    {
+      "pair_id": "PA001_trial_A_V31-V32",
+      "trial": "PA001_trial_A",
+      "bone_dice_at_reference": 0.461,
+      "ncc_at_reference": 0.8528,
+      "ncc_at_intensity_solution": 0.8802,
+      "surface_rms_at_reference_mm": 0.457,
+      "surface_rms_at_anatomy_solution_mm": 0.3132
+    },
+    {
+      "pair_id": "PA001_trial_B_V9-V10",
+      "trial": "PA001_trial_B",
+      "bone_dice_at_reference": 0.3138,
+      "ncc_at_reference": 0.7233,
+      "ncc_at_intensity_solution": 0.7895,
+      "surface_rms_at_reference_mm": 0.8023,
+      "surface_rms_at_anatomy_solution_mm": 0.4096
+    },
+    {
+      "pair_id": "PA001_trial_B_V10-V11",
+      "trial": "PA001_trial_B",
+      "bone_dice_at_reference": 0.4798,
+      "ncc_at_reference": 0.7654,
+      "ncc_at_intensity_solution": 0.8086,
+      "surface_rms_at_reference_mm": 0.5513,
+      "surface_rms_at_anatomy_solution_mm": 0.4352
+    },
+    {
+      "pair_id": "PA001_trial_B_V11-V12",
+      "trial": "PA001_trial_B",
+      "bone_dice_at_reference": 0.1429,
+      "ncc_at_reference": 0.7091,
+      "ncc_at_intensity_solution": 0.733,
+      "surface_rms_at_reference_mm": 3.5009,
+      "surface_rms_at_anatomy_solution_mm": 0.8945
+    },
+    {
+      "pair_id": "PA001_trial_B_V30-V31",
+      "trial": "PA001_trial_B",
+      "bone_dice_at_reference": 0.3343,
+      "ncc_at_reference": 0.5455,
+      "ncc_at_intensity_solution": 0.7165,
+      "surface_rms_at_reference_mm": 0.5764,
+      "surface_rms_at_anatomy_solution_mm": 0.3152
+    },
+    {
+      "pair_id": "PA001_trial_B_V31-V32",
+      "trial": "PA001_trial_B",
+      "bone_dice_at_reference": 0.066,
+      "ncc_at_reference": 0.6032,
+      "ncc_at_intensity_solution": 0.7578,
+      "surface_rms_at_reference_mm": 1.7494,
+      "surface_rms_at_anatomy_solution_mm": 0.9705
+    },
+    {
+      "pair_id": "PA001_trial_B_V46-V47",
+      "trial": "PA001_trial_B",
+      "bone_dice_at_reference": 0.2312,
+      "ncc_at_reference": 0.5063,
+      "ncc_at_intensity_solution": 0.8217,
+      "surface_rms_at_reference_mm": 0.5603,
+      "surface_rms_at_anatomy_solution_mm": 0.3094
+    },
+    {
+      "pair_id": "PA002_trial_B_V11-V12",
+      "trial": "PA002_trial_B",
+      "bone_dice_at_reference": 0.4205,
+      "ncc_at_reference": 0.7164,
+      "ncc_at_intensity_solution": 0.8061,
+      "surface_rms_at_reference_mm": 0.4375,
+      "surface_rms_at_anatomy_solution_mm": 0.2792
+    },
+    {
+      "pair_id": "PA002_trial_B_V28-V29",
+      "trial": "PA002_trial_B",
+      "bone_dice_at_reference": 0.0534,
+      "ncc_at_reference": 0.6876,
+      "ncc_at_intensity_solution": 0.7756,
+      "surface_rms_at_reference_mm": 2.2549,
+      "surface_rms_at_anatomy_solution_mm": 0.4473
+    },
+    {
+      "pair_id": "PA002_trial_B_V29-V30",
+      "trial": "PA002_trial_B",
+      "bone_dice_at_reference": 0.0828,
+      "ncc_at_reference": 0.5581,
+      "ncc_at_intensity_solution": 0.7772,
+      "surface_rms_at_reference_mm": 1.1372,
+      "surface_rms_at_anatomy_solution_mm": 0.4196
+    },
+    {
+      "pair_id": "PA002_trial_B_V30-V31",
+      "trial": "PA002_trial_B",
+      "bone_dice_at_reference": 0.1367,
+      "ncc_at_reference": 0.6595,
+      "ncc_at_intensity_solution": 0.8477,
+      "surface_rms_at_reference_mm": 1.6929,
+      "surface_rms_at_anatomy_solution_mm": 0.9773
+    },
+    {
+      "pair_id": "PA002_trial_B_V31-V32",
+      "trial": "PA002_trial_B",
+      "bone_dice_at_reference": 0.093,
+      "ncc_at_reference": 0.7268,
+      "ncc_at_intensity_solution": 0.7993,
+      "surface_rms_at_reference_mm": 0.989,
+      "surface_rms_at_anatomy_solution_mm": 0.3731
+    },
+    {
+      "pair_id": "PA003_trial_A_V11-V12",
+      "trial": "PA003_trial_A",
+      "bone_dice_at_reference": 0.3675,
+      "ncc_at_reference": 0.7434,
+      "ncc_at_intensity_solution": 0.7596,
+      "surface_rms_at_reference_mm": 0.3663,
+      "surface_rms_at_anatomy_solution_mm": 0.2541
+    },
+    {
+      "pair_id": "PA003_trial_A_V32-V33",
+      "trial": "PA003_trial_A",
+      "bone_dice_at_reference": 0.3833,
+      "ncc_at_reference": 0.7113,
+      "ncc_at_intensity_solution": 0.7234,
+      "surface_rms_at_reference_mm": 0.4342,
+      "surface_rms_at_anatomy_solution_mm": 0.2309
+    },
+    {
+      "pair_id": "PA003_trial_A_V33-V34",
+      "trial": "PA003_trial_A",
+      "bone_dice_at_reference": 0.5429,
+      "ncc_at_reference": 0.7487,
+      "ncc_at_intensity_solution": 0.8499,
+      "surface_rms_at_reference_mm": 0.5035,
+      "surface_rms_at_anatomy_solution_mm": 0.3469
+    },
+    {
+      "pair_id": "PA004_trial_A_V10-V11",
+      "trial": "PA004_trial_A",
+      "bone_dice_at_reference": 0.0,
+      "ncc_at_reference": 0.6436,
+      "ncc_at_intensity_solution": 0.8387,
+      "surface_rms_at_reference_mm": 12.0707,
+      "surface_rms_at_anatomy_solution_mm": 0.2879
+    },
+    {
+      "pair_id": "PA004_trial_A_V30-V31",
+      "trial": "PA004_trial_A",
+      "bone_dice_at_reference": 0.2845,
+      "ncc_at_reference": 0.6368,
+      "ncc_at_intensity_solution": 0.7414,
+      "surface_rms_at_reference_mm": 0.6794,
+      "surface_rms_at_anatomy_solution_mm": 0.2821
+    },
+    {
+      "pair_id": "PA004_trial_A_V31-V32",
+      "trial": "PA004_trial_A",
+      "bone_dice_at_reference": 0.0937,
+      "ncc_at_reference": 0.6114,
+      "ncc_at_intensity_solution": 0.7639,
+      "surface_rms_at_reference_mm": 1.2055,
+      "surface_rms_at_anatomy_solution_mm": 0.3855
+    },
+    {
+      "pair_id": "PA005_trial_A_V8-V9",
+      "trial": "PA005_trial_A",
+      "bone_dice_at_reference": 0.519,
+      "ncc_at_reference": 0.583,
+      "ncc_at_intensity_solution": 0.7957,
+      "surface_rms_at_reference_mm": 0.5784,
+      "surface_rms_at_anatomy_solution_mm": 0.4173
+    },
+    {
+      "pair_id": "PA005_trial_A_V9-V10",
+      "trial": "PA005_trial_A",
+      "bone_dice_at_reference": 0.5155,
+      "ncc_at_reference": 0.6206,
+      "ncc_at_intensity_solution": 0.8055,
+      "surface_rms_at_reference_mm": 0.352,
+      "surface_rms_at_anatomy_solution_mm": 0.2841
+    },
+    {
+      "pair_id": "PA005_trial_A_V10-V11",
+      "trial": "PA005_trial_A",
+      "bone_dice_at_reference": 0.2656,
+      "ncc_at_reference": 0.6503,
+      "ncc_at_intensity_solution": 0.8408,
+      "surface_rms_at_reference_mm": 0.6217,
+      "surface_rms_at_anatomy_solution_mm": 0.3175
+    },
+    {
+      "pair_id": "PA005_trial_A_V11-V12",
+      "trial": "PA005_trial_A",
+      "bone_dice_at_reference": 0.0281,
+      "ncc_at_reference": 0.5845,
+      "ncc_at_intensity_solution": 0.8125,
+      "surface_rms_at_reference_mm": 0.7677,
+      "surface_rms_at_anatomy_solution_mm": 0.4007
+    },
+    {
+      "pair_id": "PA005_trial_A_V28-V29",
+      "trial": "PA005_trial_A",
+      "bone_dice_at_reference": 0.0,
+      "ncc_at_reference": 0.4539,
+      "ncc_at_intensity_solution": 0.7487,
+      "surface_rms_at_reference_mm": 4.5218,
+      "surface_rms_at_anatomy_solution_mm": 1.0696
+    },
+    {
+      "pair_id": "PA005_trial_A_V29-V30",
+      "trial": "PA005_trial_A",
+      "bone_dice_at_reference": 0.0371,
+      "ncc_at_reference": 0.3976,
+      "ncc_at_intensity_solution": 0.7743,
+      "surface_rms_at_reference_mm": 1.9011,
+      "surface_rms_at_anatomy_solution_mm": 0.2995
+    },
+    {
+      "pair_id": "PA005_trial_A_V30-V31",
+      "trial": "PA005_trial_A",
+      "bone_dice_at_reference": 0.0,
+      "ncc_at_reference": 0.3982,
+      "ncc_at_intensity_solution": 0.8662,
+      "surface_rms_at_reference_mm": 1.6935,
+      "surface_rms_at_anatomy_solution_mm": 0.291
+    },
+    {
+      "pair_id": "PA005_trial_A_V31-V32",
+      "trial": "PA005_trial_A",
+      "bone_dice_at_reference": 0.1197,
+      "ncc_at_reference": 0.4503,
+      "ncc_at_intensity_solution": 0.7598,
+      "surface_rms_at_reference_mm": 2.0402,
+      "surface_rms_at_anatomy_solution_mm": 0.291
+    }
+  ]
+}

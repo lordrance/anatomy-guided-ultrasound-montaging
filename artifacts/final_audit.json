@@ -1,0 +1,135 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "check": "every eligible pair was run",
+      "passed": true,
+      "detail": "28 run, 28 eligible"
+    },
+    {
+      "check": "row count matches pairs x conditions x seeds x methods",
+      "passed": true,
+      "detail": "504 == 504"
+    },
+    {
+      "check": "no missing mTRE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "summary.json agrees on the pair count",
+      "passed": true,
+      "detail": "28 vs 28"
+    },
+    {
+      "check": "both methods started from the same transform in every run",
+      "passed": true,
+      "detail": "252 paired runs, max difference 0.00e+00 mm"
+    },
+    {
+      "check": "no pair was evaluated more than once per (condition, repeat, method)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "success == (mTRE < 5.0 mm) on every row",
+      "passed": true,
+      "detail": "504/504"
+    },
+    {
+      "check": "improved == (mTRE < initial mTRE) on every row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "EASY   intensity  matches summary.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "EASY   anatomy    matches summary.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "MEDIUM intensity  matches summary.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "MEDIUM anatomy    matches summary.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "HARD   intensity  matches summary.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "HARD   anatomy    matches summary.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "ALL    intensity  matches summary.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "ALL    anatomy    matches summary.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "anatomy has the higher success rate",
+      "passed": true,
+      "detail": "0.313 vs 0.222 (+0.091)"
+    },
+    {
+      "check": "anatomy has the higher mean mTRE, i.e. it is worse on average",
+      "passed": true,
+      "detail": "10.59 vs 8.68 mm (+1.91)"
+    },
+    {
+      "check": "the success-rate difference is not distinguishable from zero",
+      "passed": true,
+      "detail": "95% CI [-0.0617, 0.2645]"
+    },
+    {
+      "check": "the mean-mTRE difference is distinguishable from zero",
+      "passed": true,
+      "detail": "95% CI [0.4102, 3.6847]"
+    },
+    {
+      "check": "anatomy leads where the pair shares bone (Dice >= 0.30)",
+      "passed": true,
+      "detail": "0.667 vs 0.222 over 11 pairs"
+    },
+    {
+      "check": "and trails where it does not",
+      "passed": true,
+      "detail": "0.085 vs 0.222"
+    },
+    {
+      "check": "anatomy is more than 10x faster",
+      "passed": true,
+      "detail": "14.1x"
+    },
+    {
+      "check": "intensity reaches a higher NCC than the reference on every pair",
+      "passed": true,
+      "detail": "28/28"
+    },
+    {
+      "check": "geometry reproduces the authors' published Dice on Slicer-dialect pairs",
+      "passed": true,
+      "detail": "r = 0.9116 over n = 15"
+    },
+    {
+      "check": "every pair used has two Slicer-dialect masks",
+      "passed": true,
+      "detail": ""
+    }
+  ]
+}

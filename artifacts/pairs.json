@@ -1,0 +1,757 @@
+[
+  {
+    "pair_id": "PA001_trial_A_V9-V10",
+    "trial": "PA001_trial_A",
+    "participant": "PA001",
+    "moving": 9,
+    "fixed": 10,
+    "overlap": 0.6973,
+    "mask_dialects": [
+      "Slicer",
+      "Slicer"
+    ],
+    "eligible": true,
+    "excluded_because": [],
+    "ref_translation_mm": 12.216,
+    "bone_dice_at_reference": 0.017
+  },
+  {
+    "pair_id": "PA001_trial_A_V10-V11",
+    "trial": "PA001_trial_A",
+    "participant": "PA001",
+    "moving": 10,
+    "fixed": 11,
+    "overlap": 0.7844,
+    "mask_dialects": [
+      "Slicer",
+      "Slicer"
+    ],
+    "eligible": true,
+    "excluded_because": [],
+    "ref_translation_mm": 8.847,
+    "bone_dice_at_reference": 0.3409
+  },
+  {
+    "pair_id": "PA001_trial_A_V11-V12",
+    "trial": "PA001_trial_A",
+    "participant": "PA001",
+    "moving": 11,
+    "fixed": 12,
+    "overlap": 0.6618,
+    "mask_dialects": [
+      "Slicer",
+      "ImFusion"
+    ],
+    "eligible": false,
+    "excluded_because": [
+      "ImFusion-dialect mask"
+    ],
+    "ref_translation_mm": 9.65
+  },
+  {
+    "pair_id": "PA001_trial_A_V29-V30",
+    "trial": "PA001_trial_A",
+    "participant": "PA001",
+    "moving": 29,
+    "fixed": 30,
+    "overlap": 0.6514,
+    "mask_dialects": [
+      "ImFusion",
+      "ImFusion"
+    ],
+    "eligible": false,
+    "excluded_because": [
+      "ImFusion-dialect mask"
+    ],
+    "ref_translation_mm": 16.469
+  },
+  {
+    "pair_id": "PA001_trial_A_V30-V31",
+    "trial": "PA001_trial_A",
+    "participant": "PA001",
+    "moving": 30,
+    "fixed": 31,
+    "overlap": 0.7617,
+    "mask_dialects": [
+      "ImFusion",
+      "Slicer"
+    ],
+    "eligible": false,
+    "excluded_because": [
+      "ImFusion-dialect mask"
+    ],
+    "ref_translation_mm": 9.176
+  },
+  {
+    "pair_id": "PA001_trial_A_V31-V32",
+    "trial": "PA001_trial_A",
+    "participant": "PA001",
+    "moving": 31,
+    "fixed": 32,
+    "overlap": 0.7974,
+    "mask_dialects": [
+      "Slicer",
+      "Slicer"
+    ],
+    "eligible": true,
+    "excluded_because": [],
+    "ref_translation_mm": 10.812,
+    "bone_dice_at_reference": 0.461
+  },
+  {
+    "pair_id": "PA001_trial_B_V9-V10",
+    "trial": "PA001_trial_B",
+    "participant": "PA001",
+    "moving": 9,
+    "fixed": 10,
+    "overlap": 0.6116,
+    "mask_dialects": [
+      "Slicer",
+      "Slicer"
+    ],
+    "eligible": true,
+    "excluded_because": [],
+    "ref_translation_mm": 17.179,
+    "bone_dice_at_reference": 0.3138
+  },
+  {
+    "pair_id": "PA001_trial_B_V10-V11",
+    "trial": "PA001_trial_B",
+    "participant": "PA001",
+    "moving": 10,
+    "fixed": 11,
+    "overlap": 0.6716,
+    "mask_dialects": [
+      "Slicer",
+      "Slicer"
+    ],
+    "eligible": true,
+    "excluded_because": [],
+    "ref_translation_mm": 16.757,
+    "bone_dice_at_reference": 0.4798
+  },
+  {
+    "pair_id": "PA001_trial_B_V11-V12",
+    "trial": "PA001_trial_B",
+    "participant": "PA001",
+    "moving": 11,
+    "fixed": 12,
+    "overlap": 0.7379,
+    "mask_dialects": [
+      "Slicer",
+      "Slicer"
+    ],
+    "eligible": true,
+    "excluded_because": [],
+    "ref_translation_mm": 9.515,
+    "bone_dice_at_reference": 0.1429
+  },
+  {
+    "pair_id": "PA001_trial_B_V30-V31",
+    "trial": "PA001_trial_B",
+    "participant": "PA001",
+    "moving": 30,
+    "fixed": 31,
+    "overlap": 0.7417,
+    "mask_dialects": [
+      "Slicer",
+      "Slicer"
+    ],
+    "eligible": true,
+    "excluded_because": [],
+    "ref_translation_mm": 13.376,
+    "bone_dice_at_reference": 0.3343
+  },
+  {
+    "pair_id": "PA001_trial_B_V31-V32",
+    "trial": "PA001_trial_B",
+    "participant": "PA001",
+    "moving": 31,
+    "fixed": 32,
+    "overlap": 0.627,
+    "mask_dialects": [
+      "Slicer",
+      "Slicer"
+    ],
+    "eligible": true,
+    "excluded_because": [],
+    "ref_translation_mm": 18.209,
+    "bone_dice_at_reference": 0.066
+  },
+  {
+    "pair_id": "PA001_trial_B_V46-V47",
+    "trial": "PA001_trial_B",
+    "participant": "PA001",
+    "moving": 46,
+    "fixed": 47,
+    "overlap": 0.8063,
+    "mask_dialects": [
+      "Slicer",
+      "Slicer"
+    ],
+    "eligible": true,
+    "excluded_because": [],
+    "ref_translation_mm": 9.543,
+    "bone_dice_at_reference": 0.2312
+  },
+  {
+    "pair_id": "PA002_trial_A_V8-V9",
+    "trial": "PA002_trial_A",
+    "participant": "PA002",
+    "moving": 8,
+    "fixed": 9,
+    "overlap": 0.7018,
+    "mask_dialects": [
+      "Slicer",
+      "ImFusion"
+    ],
+    "eligible": false,
+    "excluded_because": [
+      "ImFusion-dialect mask"
+    ],
+    "ref_translation_mm": 11.362
+  },
+  {
+    "pair_id": "PA002_trial_A_V9-V10",
+    "trial": "PA002_trial_A",
+    "participant": "PA002",
+    "moving": 9,
+    "fixed": 10,
+    "overlap": 0.7153,
+    "mask_dialects": [
+      "ImFusion",
+      "ImFusion"
+    ],
+    "eligible": false,
+    "excluded_because": [
+      "ImFusion-dialect mask"
+    ],
+    "ref_translation_mm": 6.77
+  },
+  {
+    "pair_id": "PA002_trial_A_V10-V11",
+    "trial": "PA002_trial_A",
+    "participant": "PA002",
+    "moving": 10,
+    "fixed": 11,
+    "overlap": 0.8677,
+    "mask_dialects": [
+      "ImFusion",
+      "ImFusion"
+    ],
+    "eligible": false,
+    "excluded_because": [
+      "ImFusion-dialect mask"
+    ],
+    "ref_translation_mm": 2.699
+  },
+  {
+    "pair_id": "PA002_trial_A_V11-V12",
+    "trial": "PA002_trial_A",
+    "participant": "PA002",
+    "moving": 11,
+    "fixed": 12,
+    "overlap": 0.8805,
+    "mask_dialects": [
+      "ImFusion",
+      "ImFusion"
+    ],
+    "eligible": false,
+    "excluded_because": [
+      "ImFusion-dialect mask"
+    ],
+    "ref_translation_mm": 6.508
+  },
+  {
+    "pair_id": "PA002_trial_A_V28-V29",
+    "trial": "PA002_trial_A",
+    "participant": "PA002",
+    "moving": 28,
+    "fixed": 29,
+    "overlap": 0.8197,
+    "mask_dialects": [
+      "ImFusion",
+      "ImFusion"
+    ],
+    "eligible": false,
+    "excluded_because": [
+      "ImFusion-dialect mask"
+    ],
+    "ref_translation_mm": 9.25
+  },
+  {
+    "pair_id": "PA002_trial_A_V29-V30",
+    "trial": "PA002_trial_A",
+    "participant": "PA002",
+    "moving": 29,
+    "fixed": 30,
+    "overlap": 0.7715,
+    "mask_dialects": [
+      "ImFusion",
+      "ImFusion"
+    ],
+    "eligible": false,
+    "excluded_because": [
+      "ImFusion-dialect mask"
+    ],
+    "ref_translation_mm": 11.777
+  },
+  {
+    "pair_id": "PA002_trial_A_V30-V31",
+    "trial": "PA002_trial_A",
+    "participant": "PA002",
+    "moving": 30,
+    "fixed": 31,
+    "overlap": 0.7788,
+    "mask_dialects": [
+      "ImFusion",
+      "ImFusion"
+    ],
+    "eligible": false,
+    "excluded_because": [
+      "ImFusion-dialect mask"
+    ],
+    "ref_translation_mm": 8.177
+  },
+  {
+    "pair_id": "PA002_trial_A_V31-V32",
+    "trial": "PA002_trial_A",
+    "participant": "PA002",
+    "moving": 31,
+    "fixed": 32,
+    "overlap": 0.8278,
+    "mask_dialects": [
+      "ImFusion",
+      "ImFusion"
+    ],
+    "eligible": false,
+    "excluded_because": [
+      "ImFusion-dialect mask"
+    ],
+    "ref_translation_mm": 8.346
+  },
+  {
+    "pair_id": "PA002_trial_B_V8-V9",
+    "trial": "PA002_trial_B",
+    "participant": "PA002",
+    "moving": 8,
+    "fixed": 9,
+    "overlap": 0.7122,
+    "mask_dialects": [
+      "ImFusion",
+      "ImFusion"
+    ],
+    "eligible": false,
+    "excluded_because": [
+      "ImFusion-dialect mask"
+    ],
+    "ref_translation_mm": 12.043
+  },
+  {
+    "pair_id": "PA002_trial_B_V9-V10",
+    "trial": "PA002_trial_B",
+    "participant": "PA002",
+    "moving": 9,
+    "fixed": 10,
+    "overlap": 0.8071,
+    "mask_dialects": [
+      "ImFusion",
+      "ImFusion"
+    ],
+    "eligible": false,
+    "excluded_because": [
+      "ImFusion-dialect mask"
+    ],
+    "ref_translation_mm": 7.59
+  },
+  {
+    "pair_id": "PA002_trial_B_V10-V11",
+    "trial": "PA002_trial_B",
+    "participant": "PA002",
+    "moving": 10,
+    "fixed": 11,
+    "overlap": 0.6406,
+    "mask_dialects": [
+      "ImFusion",
+      "Slicer"
+    ],
+    "eligible": false,
+    "excluded_because": [
+      "ImFusion-dialect mask"
+    ],
+    "ref_translation_mm": 13.101
+  },
+  {
+    "pair_id": "PA002_trial_B_V11-V12",
+    "trial": "PA002_trial_B",
+    "participant": "PA002",
+    "moving": 11,
+    "fixed": 12,
+    "overlap": 0.7838,
+    "mask_dialects": [
+      "Slicer",
+      "Slicer"
+    ],
+    "eligible": true,
+    "excluded_because": [],
+    "ref_translation_mm": 10.559,
+    "bone_dice_at_reference": 0.4205
+  },
+  {
+    "pair_id": "PA002_trial_B_V28-V29",
+    "trial": "PA002_trial_B",
+    "participant": "PA002",
+    "moving": 28,
+    "fixed": 29,
+    "overlap": 0.7422,
+    "mask_dialects": [
+      "Slicer",
+      "Slicer"
+    ],
+    "eligible": true,
+    "excluded_because": [],
+    "ref_translation_mm": 14.019,
+    "bone_dice_at_reference": 0.0534
+  },
+  {
+    "pair_id": "PA002_trial_B_V29-V30",
+    "trial": "PA002_trial_B",
+    "participant": "PA002",
+    "moving": 29,
+    "fixed": 30,
+    "overlap": 0.719,
+    "mask_dialects": [
+      "Slicer",
+      "Slicer"
+    ],
+    "eligible": true,
+    "excluded_because": [],
+    "ref_translation_mm": 18.638,
+    "bone_dice_at_reference": 0.0828
+  },
+  {
+    "pair_id": "PA002_trial_B_V30-V31",
+    "trial": "PA002_trial_B",
+    "participant": "PA002",
+    "moving": 30,
+    "fixed": 31,
+    "overlap": 0.7929,
+    "mask_dialects": [
+      "Slicer",
+      "Slicer"
+    ],
+    "eligible": true,
+    "excluded_because": [],
+    "ref_translation_mm": 9.33,
+    "bone_dice_at_reference": 0.1367
+  },
+  {
+    "pair_id": "PA002_trial_B_V31-V32",
+    "trial": "PA002_trial_B",
+    "participant": "PA002",
+    "moving": 31,
+    "fixed": 32,
+    "overlap": 0.7783,
+    "mask_dialects": [
+      "Slicer",
+      "Slicer"
+    ],
+    "eligible": true,
+    "excluded_because": [],
+    "ref_translation_mm": 8.953,
+    "bone_dice_at_reference": 0.093
+  },
+  {
+    "pair_id": "PA003_trial_A_V10-V11",
+    "trial": "PA003_trial_A",
+    "participant": "PA003",
+    "moving": 10,
+    "fixed": 11,
+    "overlap": 0.7897,
+    "mask_dialects": [
+      "ImFusion",
+      "Slicer"
+    ],
+    "eligible": false,
+    "excluded_because": [
+      "ImFusion-dialect mask"
+    ],
+    "ref_translation_mm": 9.532
+  },
+  {
+    "pair_id": "PA003_trial_A_V11-V12",
+    "trial": "PA003_trial_A",
+    "participant": "PA003",
+    "moving": 11,
+    "fixed": 12,
+    "overlap": 0.7398,
+    "mask_dialects": [
+      "Slicer",
+      "Slicer"
+    ],
+    "eligible": true,
+    "excluded_because": [],
+    "ref_translation_mm": 12.02,
+    "bone_dice_at_reference": 0.3675
+  },
+  {
+    "pair_id": "PA003_trial_A_V32-V33",
+    "trial": "PA003_trial_A",
+    "participant": "PA003",
+    "moving": 32,
+    "fixed": 33,
+    "overlap": 0.7239,
+    "mask_dialects": [
+      "Slicer",
+      "Slicer"
+    ],
+    "eligible": true,
+    "excluded_because": [],
+    "ref_translation_mm": 14.236,
+    "bone_dice_at_reference": 0.3833
+  },
+  {
+    "pair_id": "PA003_trial_A_V33-V34",
+    "trial": "PA003_trial_A",
+    "participant": "PA003",
+    "moving": 33,
+    "fixed": 34,
+    "overlap": 0.8395,
+    "mask_dialects": [
+      "Slicer",
+      "Slicer"
+    ],
+    "eligible": true,
+    "excluded_because": [],
+    "ref_translation_mm": 7.264,
+    "bone_dice_at_reference": 0.5429
+  },
+  {
+    "pair_id": "PA004_trial_A_V8-V9",
+    "trial": "PA004_trial_A",
+    "participant": "PA004",
+    "moving": 8,
+    "fixed": 9,
+    "overlap": 0.8323,
+    "mask_dialects": [
+      "ImFusion",
+      "ImFusion"
+    ],
+    "eligible": false,
+    "excluded_because": [
+      "ImFusion-dialect mask"
+    ],
+    "ref_translation_mm": 5.963
+  },
+  {
+    "pair_id": "PA004_trial_A_V9-V10",
+    "trial": "PA004_trial_A",
+    "participant": "PA004",
+    "moving": 9,
+    "fixed": 10,
+    "overlap": 1.0,
+    "mask_dialects": [
+      "ImFusion",
+      "Slicer"
+    ],
+    "eligible": false,
+    "excluded_because": [
+      "ImFusion-dialect mask",
+      "identical reference transforms"
+    ],
+    "ref_translation_mm": 0.0
+  },
+  {
+    "pair_id": "PA004_trial_A_V10-V11",
+    "trial": "PA004_trial_A",
+    "participant": "PA004",
+    "moving": 10,
+    "fixed": 11,
+    "overlap": 0.5103,
+    "mask_dialects": [
+      "Slicer",
+      "Slicer"
+    ],
+    "eligible": true,
+    "excluded_because": [],
+    "ref_translation_mm": 28.058,
+    "bone_dice_at_reference": 0.0
+  },
+  {
+    "pair_id": "PA004_trial_A_V11-V12",
+    "trial": "PA004_trial_A",
+    "participant": "PA004",
+    "moving": 11,
+    "fixed": 12,
+    "overlap": 0.6884,
+    "mask_dialects": [
+      "Slicer",
+      "ImFusion"
+    ],
+    "eligible": false,
+    "excluded_because": [
+      "ImFusion-dialect mask"
+    ],
+    "ref_translation_mm": 15.047
+  },
+  {
+    "pair_id": "PA004_trial_A_V30-V31",
+    "trial": "PA004_trial_A",
+    "participant": "PA004",
+    "moving": 30,
+    "fixed": 31,
+    "overlap": 0.69,
+    "mask_dialects": [
+      "Slicer",
+      "Slicer"
+    ],
+    "eligible": true,
+    "excluded_because": [],
+    "ref_translation_mm": 14.82,
+    "bone_dice_at_reference": 0.2845
+  },
+  {
+    "pair_id": "PA004_trial_A_V31-V32",
+    "trial": "PA004_trial_A",
+    "participant": "PA004",
+    "moving": 31,
+    "fixed": 32,
+    "overlap": 0.7687,
+    "mask_dialects": [
+      "Slicer",
+      "Slicer"
+    ],
+    "eligible": true,
+    "excluded_because": [],
+    "ref_translation_mm": 6.544,
+    "bone_dice_at_reference": 0.0937
+  },
+  {
+    "pair_id": "PA005_trial_A_V8-V9",
+    "trial": "PA005_trial_A",
+    "participant": "PA005",
+    "moving": 8,
+    "fixed": 9,
+    "overlap": 0.7857,
+    "mask_dialects": [
+      "Slicer",
+      "Slicer"
+    ],
+    "eligible": true,
+    "excluded_because": [],
+    "ref_translation_mm": 8.734,
+    "bone_dice_at_reference": 0.519
+  },
+  {
+    "pair_id": "PA005_trial_A_V9-V10",
+    "trial": "PA005_trial_A",
+    "participant": "PA005",
+    "moving": 9,
+    "fixed": 10,
+    "overlap": 0.9146,
+    "mask_dialects": [
+      "Slicer",
+      "Slicer"
+    ],
+    "eligible": true,
+    "excluded_because": [],
+    "ref_translation_mm": 3.582,
+    "bone_dice_at_reference": 0.5155
+  },
+  {
+    "pair_id": "PA005_trial_A_V10-V11",
+    "trial": "PA005_trial_A",
+    "participant": "PA005",
+    "moving": 10,
+    "fixed": 11,
+    "overlap": 0.9166,
+    "mask_dialects": [
+      "Slicer",
+      "Slicer"
+    ],
+    "eligible": true,
+    "excluded_because": [],
+    "ref_translation_mm": 1.92,
+    "bone_dice_at_reference": 0.2656
+  },
+  {
+    "pair_id": "PA005_trial_A_V11-V12",
+    "trial": "PA005_trial_A",
+    "participant": "PA005",
+    "moving": 11,
+    "fixed": 12,
+    "overlap": 0.7262,
+    "mask_dialects": [
+      "Slicer",
+      "Slicer"
+    ],
+    "eligible": true,
+    "excluded_because": [],
+    "ref_translation_mm": 11.757,
+    "bone_dice_at_reference": 0.0281
+  },
+  {
+    "pair_id": "PA005_trial_A_V28-V29",
+    "trial": "PA005_trial_A",
+    "participant": "PA005",
+    "moving": 28,
+    "fixed": 29,
+    "overlap": 0.7458,
+    "mask_dialects": [
+      "Slicer",
+      "Slicer"
+    ],
+    "eligible": true,
+    "excluded_because": [],
+    "ref_translation_mm": 12.65,
+    "bone_dice_at_reference": 0.0
+  },
+  {
+    "pair_id": "PA005_trial_A_V29-V30",
+    "trial": "PA005_trial_A",
+    "participant": "PA005",
+    "moving": 29,
+    "fixed": 30,
+    "overlap": 0.7712,
+    "mask_dialects": [
+      "Slicer",
+      "Slicer"
+    ],
+    "eligible": true,
+    "excluded_because": [],
+    "ref_translation_mm": 6.067,
+    "bone_dice_at_reference": 0.0371
+  },
+  {
+    "pair_id": "PA005_trial_A_V30-V31",
+    "trial": "PA005_trial_A",
+    "participant": "PA005",
+    "moving": 30,
+    "fixed": 31,
+    "overlap": 0.7544,
+    "mask_dialects": [
+      "Slicer",
+      "Slicer"
+    ],
+    "eligible": true,
+    "excluded_because": [],
+    "ref_translation_mm": 8.854,
+    "bone_dice_at_reference": 0.0
+  },
+  {
+    "pair_id": "PA005_trial_A_V31-V32",
+    "trial": "PA005_trial_A",
+    "participant": "PA005",
+    "moving": 31,
+    "fixed": 32,
+    "overlap": 0.7961,
+    "mask_dialects": [
+      "Slicer",
+      "Slicer"
+    ],
+    "eligible": true,
+    "excluded_because": [],
+    "ref_translation_mm": 8.295,
+    "bone_dice_at_reference": 0.1197
+  }
+]
